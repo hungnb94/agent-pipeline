@@ -1,1 +1,19 @@
-/node_modules/.package-lock.json
+node_modules
+dist
+.idea
+coverage
+logs
+TEST_RESULTS.md
+.DS_Store
+.hermes/
+*.md.backup
+.tsbuildinfo
+
+# Local review + example specs (not part of the source tree)
+PR_REVIEW.md
+examples/
+
+# Pipeline-generated run reports (ephemeral, evidence lives in GitHub Releases)
+PHASE*_*.md
+PHASE*_COMPLETE.md
+PHASE*_RESULTS.md

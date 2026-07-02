@@ -1,0 +1,45 @@
+{
+  "name": "agent-pipeline",
+  "version": "0.0.1",
+  "description": "Sequential agent pipeline: spec → plan → build → test → review → simplify → ship",
+  "main": "dist/index.js",
+  "bin": {
+    "agent-pipeline": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "dev": "ts-node src/cli.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "agent",
+    "pipeline",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hungnb94/agent-pipeline.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hungnb94/agent-pipeline/issues"
+  },
+  "homepage": "https://github.com/hungnb94/agent-pipeline#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "yaml": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^20.0.0",
+    "jest": "^30.4.2",
+    "ts-jest": "^29.4.11",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
