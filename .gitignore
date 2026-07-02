@@ -5,3 +5,6 @@ coverage
 logs
 TEST_RESULTS.md
 .DS_Store
+.hermes/
+*.md.backup
+.tsbuildinfo
