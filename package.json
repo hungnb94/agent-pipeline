@@ -1,6 +1,6 @@
 {
   "name": "agent-pipeline",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Sequential agent pipeline: spec → plan → build → test → review → simplify → ship",
   "main": "dist/index.js",
   "bin": {
