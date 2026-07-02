@@ -4,8 +4,7 @@
   "description": "Sequential agent pipeline: spec → plan → build → test → review → simplify → ship",
   "main": "dist/index.js",
   "bin": {
-    "agent-pipeline": "./dist/cli.js",
-    "counter": "./dist/counter-cli.js"
+    "agent-pipeline": "./dist/cli.js"
   },
   "scripts": {
     "build": "tsc",

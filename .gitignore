@@ -8,3 +8,7 @@ TEST_RESULTS.md
 .hermes/
 *.md.backup
 .tsbuildinfo
+
+# Local review + example specs (not part of the source tree)
+PR_REVIEW.md
+examples/
