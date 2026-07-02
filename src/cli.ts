@@ -5,6 +5,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 import chalk from 'chalk';
 import { PipelineExecutor } from './pipeline';
+import { printHello } from './hello';
 
 const program = new Command();
 
@@ -78,6 +79,13 @@ program
       console.error('');
       process.exit(1);
     }
+  });
+
+program
+  .command('hello')
+  .description('Print "Hello World" to stdout — smoke test for the pipeline')
+  .action(() => {
+    process.stdout.write(printHello());
   });
 
 program.parse();
