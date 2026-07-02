@@ -12,3 +12,8 @@ TEST_RESULTS.md
 # Local review + example specs (not part of the source tree)
 PR_REVIEW.md
 examples/
+
+# Pipeline-generated run reports (ephemeral, evidence lives in GitHub Releases)
+PHASE*_*.md
+PHASE*_COMPLETE.md
+PHASE*_RESULTS.md
