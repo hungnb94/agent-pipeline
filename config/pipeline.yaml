@@ -121,4 +121,3 @@ steps:
           --title "Release ${NEW_VERSION#v}" \
           --body "## Automated Release\n\nRelease: $RELEASE_URL\n\nEvidence attached to release." \
           --base main || echo "PR creation failed or already exists"
-    next: done
